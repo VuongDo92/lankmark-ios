@@ -42,6 +42,12 @@
 		98B9885D23565BDE00DA5015 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9885C23565BDE00DA5015 /* BadgeBackground.swift */; };
 		98B9885F23565CCB00DA5015 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9885E23565CCB00DA5015 /* BadgeSymbol.swift */; };
 		98B9886123565D5F00DA5015 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9886023565D5F00DA5015 /* RotatedBadgeSymbol.swift */; };
+		98B988632356620000DA5015 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B988622356620000DA5015 /* HikeView.swift */; };
+		98B988652356625700DA5015 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B988642356625700DA5015 /* HikeDetail.swift */; };
+		98B98867235662DA00DA5015 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B98866235662DA00DA5015 /* Hike.swift */; };
+		98B988692356638F00DA5015 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B988682356638F00DA5015 /* HikeGraph.swift */; };
+		98B9886B235663A400DA5015 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9886A235663A400DA5015 /* GraphCapsule.swift */; };
+		98B9886D23566AC500DA5015 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 98B9886C23566AC500DA5015 /* hikeData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +109,12 @@
 		98B9885C23565BDE00DA5015 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		98B9885E23565CCB00DA5015 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		98B9886023565D5F00DA5015 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		98B988622356620000DA5015 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		98B988642356625700DA5015 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		98B98866235662DA00DA5015 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		98B988682356638F00DA5015 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		98B9886A235663A400DA5015 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		98B9886C23566AC500DA5015 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +184,10 @@
 				98B9885C23565BDE00DA5015 /* BadgeBackground.swift */,
 				98B9885E23565CCB00DA5015 /* BadgeSymbol.swift */,
 				98B9886023565D5F00DA5015 /* RotatedBadgeSymbol.swift */,
+				98B988622356620000DA5015 /* HikeView.swift */,
+				98B988642356625700DA5015 /* HikeDetail.swift */,
+				98B988682356638F00DA5015 /* HikeGraph.swift */,
+				98B9886A235663A400DA5015 /* GraphCapsule.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -208,6 +224,7 @@
 				98B987E523521A6200DA5015 /* Landmark.swift */,
 				98B987F72352252700DA5015 /* Data.swift */,
 				98B9882E2352D3DA00DA5015 /* UserData.swift */,
+				98B98866235662DA00DA5015 /* Hike.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,6 +239,7 @@
 				98B988432352D5C000DA5015 /* icybay.jpg */,
 				98B988422352D5C000DA5015 /* lakemcdonald.jpg */,
 				98B988442352D5C000DA5015 /* landmarkData.json */,
+				98B9886C23566AC500DA5015 /* hikeData.json */,
 				98B9883F2352D5C000DA5015 /* rainbowlake.jpg */,
 				98B988412352D5C000DA5015 /* silversalmoncreek.jpg */,
 				98B9883C2352D5C000DA5015 /* stmarylake.jpg */,
@@ -341,6 +359,7 @@
 				98B988542352D5C100DA5015 /* yukon_charleyrivers.jpg in Resources */,
 				98B9884D2352D5C100DA5015 /* rainbowlake.jpg in Resources */,
 				981BBF0E234F8F1300B1EF19 /* LaunchScreen.storyboard in Resources */,
+				98B9886D23566AC500DA5015 /* hikeData.json in Resources */,
 				98B9884E2352D5C100DA5015 /* twinlake.jpg in Resources */,
 				98B9884F2352D5C100DA5015 /* silversalmoncreek.jpg in Resources */,
 				98B988512352D5C100DA5015 /* icybay.jpg in Resources */,
@@ -381,19 +400,24 @@
 				98B988592353661A00DA5015 /* HexagonParameters.swift in Sources */,
 				981BBF02234F8F1100B1EF19 /* AppDelegate.swift in Sources */,
 				98B987DF2351960A00DA5015 /* CircleImage.swift in Sources */,
+				98B98867235662DA00DA5015 /* Hike.swift in Sources */,
 				98B987E12352131C00DA5015 /* MapView.swift in Sources */,
 				981BBF04234F8F1100B1EF19 /* SceneDelegate.swift in Sources */,
+				98B988632356620000DA5015 /* HikeView.swift in Sources */,
 				981BBF06234F8F1100B1EF19 /* ContentView.swift in Sources */,
 				98B9882F2352D3DA00DA5015 /* UserData.swift in Sources */,
 				98B987E623521A6200DA5015 /* Landmark.swift in Sources */,
 				98B9885F23565CCB00DA5015 /* BadgeSymbol.swift in Sources */,
 				98B987F62352238A00DA5015 /* LandmarkRow.swift in Sources */,
+				98B988652356625700DA5015 /* HikeDetail.swift in Sources */,
+				98B988692356638F00DA5015 /* HikeGraph.swift in Sources */,
 				98B9885D23565BDE00DA5015 /* BadgeBackground.swift in Sources */,
 				98B987F82352252700DA5015 /* Data.swift in Sources */,
 				98B987F22352220300DA5015 /* LandmarkDetail.swift in Sources */,
 				98B9885B235367C200DA5015 /* Badge.swift in Sources */,
 				98B987FA23522D8700DA5015 /* LandmarkList.swift in Sources */,
 				98B9886123565D5F00DA5015 /* RotatedBadgeSymbol.swift in Sources */,
+				98B9886B235663A400DA5015 /* GraphCapsule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
