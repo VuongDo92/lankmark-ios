@@ -165,29 +165,21 @@
 		981BBF00234F8F1100B1EF19 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				98B9886E23566D4D00DA5015 /* Supporting Views */,
 				98B987EC2352211C00DA5015 /* Resources */,
 				98B987E72352205300DA5015 /* Models */,
 				981BBF01234F8F1100B1EF19 /* AppDelegate.swift */,
 				981BBF03234F8F1100B1EF19 /* SceneDelegate.swift */,
 				981BBF05234F8F1100B1EF19 /* ContentView.swift */,
 				981BBF07234F8F1300B1EF19 /* Assets.xcassets */,
-				98B987DE2351960900DA5015 /* CircleImage.swift */,
 				981BBF0C234F8F1300B1EF19 /* LaunchScreen.storyboard */,
 				981BBF0F234F8F1300B1EF19 /* Info.plist */,
 				981BBF09234F8F1300B1EF19 /* Preview Content */,
-				98B987E02352131C00DA5015 /* MapView.swift */,
 				98B987F12352220300DA5015 /* LandmarkDetail.swift */,
-				98B987F52352238A00DA5015 /* LandmarkRow.swift */,
 				98B987F923522D8700DA5015 /* LandmarkList.swift */,
 				98B988582353661900DA5015 /* HexagonParameters.swift */,
-				98B9885A235367C200DA5015 /* Badge.swift */,
-				98B9885C23565BDE00DA5015 /* BadgeBackground.swift */,
-				98B9885E23565CCB00DA5015 /* BadgeSymbol.swift */,
-				98B9886023565D5F00DA5015 /* RotatedBadgeSymbol.swift */,
 				98B988622356620000DA5015 /* HikeView.swift */,
 				98B988642356625700DA5015 /* HikeDetail.swift */,
-				98B988682356638F00DA5015 /* HikeGraph.swift */,
-				98B9886A235663A400DA5015 /* GraphCapsule.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -249,6 +241,22 @@
 				98B988462352D5C000DA5015 /* yukon_charleyrivers.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		98B9886E23566D4D00DA5015 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				98B987E02352131C00DA5015 /* MapView.swift */,
+				98B9885A235367C200DA5015 /* Badge.swift */,
+				98B9885C23565BDE00DA5015 /* BadgeBackground.swift */,
+				98B9885E23565CCB00DA5015 /* BadgeSymbol.swift */,
+				98B987DE2351960900DA5015 /* CircleImage.swift */,
+				98B9886A235663A400DA5015 /* GraphCapsule.swift */,
+				98B988682356638F00DA5015 /* HikeGraph.swift */,
+				98B987F52352238A00DA5015 /* LandmarkRow.swift */,
+				98B9886023565D5F00DA5015 /* RotatedBadgeSymbol.swift */,
+			);
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
